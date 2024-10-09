@@ -1,0 +1,636 @@
+{
+    "ltx_root": {
+        "version": 4,
+        "minor": 0,
+        "ltx_data": [
+            {
+                "name": "EDA_PROBESET",
+                "active": true,
+                "debug_cores": [
+                    {
+                        "type": "XSDB_V3",
+                        "name": "dbg_hub",
+                        "spec": "labtools_xsdbm_v3"
+                    },
+                    {
+                        "type": "ILA_V3",
+                        "name": "u_ila_0",
+                        "spec": "labtools_ila_v6",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 0,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "23e7d65a79bc59f7bc47406c1714dfae",
+                        "pins": [
+                            {
+                                "name": "probe0",
+                                "id": 0,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 2,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "UNetwork/UframeSniffer/network_fsm_RX_next",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "UNetwork/UframeSniffer/network_fsm_RX_next[2]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeSniffer/network_fsm_RX_next[1]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeSniffer/network_fsm_RX_next[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe1",
+                                "id": 1,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 3,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "UNetwork/network_fsm_TCP",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "UNetwork/network_fsm_TCP[3]"
+                                            },
+                                            {
+                                                "name": "UNetwork/network_fsm_TCP[2]"
+                                            },
+                                            {
+                                                "name": "UNetwork/network_fsm_TCP[1]"
+                                            },
+                                            {
+                                                "name": "UNetwork/network_fsm_TCP[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe2",
+                                "id": 2,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 2,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "UNetwork/UframeSniffer/network_fsm_RX",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "UNetwork/UframeSniffer/network_fsm_RX[2]",
+                                                "parentNetId": 7
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeSniffer/network_fsm_RX[1]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeSniffer/network_fsm_RX[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe3",
+                                "id": 3,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 2,
+                                "portIndex": 3,
+                                "nets": [
+                                    {
+                                        "name": "UNetwork/transfer_fsm",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "UNetwork/transfer_fsm[2]"
+                                            },
+                                            {
+                                                "name": "UNetwork/transfer_fsm[1]"
+                                            },
+                                            {
+                                                "name": "UNetwork/transfer_fsm[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe4",
+                                "id": 4,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 7,
+                                "portIndex": 4,
+                                "nets": [
+                                    {
+                                        "name": "gmii_rxd",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "gmii_rxd[7]"
+                                            },
+                                            {
+                                                "name": "gmii_rxd[6]"
+                                            },
+                                            {
+                                                "name": "gmii_rxd[5]"
+                                            },
+                                            {
+                                                "name": "gmii_rxd[4]"
+                                            },
+                                            {
+                                                "name": "gmii_rxd[3]"
+                                            },
+                                            {
+                                                "name": "gmii_rxd[2]"
+                                            },
+                                            {
+                                                "name": "gmii_rxd[1]"
+                                            },
+                                            {
+                                                "name": "gmii_rxd[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe5",
+                                "id": 5,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 15,
+                                "portIndex": 5,
+                                "nets": [
+                                    {
+                                        "name": "UNetwork/UframeGen/base_addr_tmp",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "UNetwork/UframeGen/base_addr_tmp[15]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/base_addr_tmp[14]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/base_addr_tmp[13]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/base_addr_tmp[12]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/base_addr_tmp[11]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/base_addr_tmp[10]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/base_addr_tmp[9]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/base_addr_tmp[8]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/base_addr_tmp[7]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/base_addr_tmp[6]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/base_addr_tmp[5]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/base_addr_tmp[4]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/base_addr_tmp[3]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/base_addr_tmp[2]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/base_addr_tmp[1]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/base_addr_tmp[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe6",
+                                "id": 6,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 2,
+                                "portIndex": 6,
+                                "nets": [
+                                    {
+                                        "name": "UNetwork/UframeGen/network_fsm_TX",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "UNetwork/UframeGen/network_fsm_TX[2]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/network_fsm_TX[1]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/network_fsm_TX[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe7",
+                                "id": 7,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 2,
+                                "portIndex": 7,
+                                "nets": [
+                                    {
+                                        "name": "UNetwork/UframeGen/network_fsm_TX_next",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "UNetwork/UframeGen/network_fsm_TX_next[2]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/network_fsm_TX_next[1]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/network_fsm_TX_next[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe8",
+                                "id": 8,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 15,
+                                "portIndex": 8,
+                                "nets": [
+                                    {
+                                        "name": "UNetwork/UframeGen/sizeTX_msg_buf",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "UNetwork/UframeGen/sizeTX_msg_buf[15]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/sizeTX_msg_buf[14]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/sizeTX_msg_buf[13]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/sizeTX_msg_buf[12]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/sizeTX_msg_buf[11]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/sizeTX_msg_buf[10]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/sizeTX_msg_buf[9]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/sizeTX_msg_buf[8]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/sizeTX_msg_buf[7]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/sizeTX_msg_buf[6]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/sizeTX_msg_buf[5]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/sizeTX_msg_buf[4]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/sizeTX_msg_buf[3]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/sizeTX_msg_buf[2]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/sizeTX_msg_buf[1]"
+                                            },
+                                            {
+                                                "name": "UNetwork/UframeGen/sizeTX_msg_buf[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe9",
+                                "id": 9,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 9,
+                                "nets": [
+                                    {
+                                        "name": "UNetwork/ack_received",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 10,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "UNetwork/UframeSniffer/crc32_valid_delay_delay",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe11",
+                                "id": 11,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 11,
+                                "nets": [
+                                    {
+                                        "name": "gmii_rx_dv",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe12",
+                                "id": 12,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 12,
+                                "nets": [
+                                    {
+                                        "name": "gmii_rx_er",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe13",
+                                "id": 13,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 13,
+                                "nets": [
+                                    {
+                                        "name": "UNetwork/received_valid",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe14",
+                                "id": 14,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 14,
+                                "nets": [
+                                    {
+                                        "name": "UNetwork/UframeGen/transfer_complete",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe15",
+                                "id": 15,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 15,
+                                "nets": [
+                                    {
+                                        "name": "UNetwork/UframeGen/transfer_complete_next",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe16",
+                                "id": 16,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 16,
+                                "nets": [
+                                    {
+                                        "name": "UNetwork/transfer_en",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe17",
+                                "id": 17,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 17,
+                                "nets": [
+                                    {
+                                        "name": "UNetwork/transfer_en_next",
+                                        "isBus": false
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "ILA_V3",
+                        "name": "u_ila_1",
+                        "spec": "labtools_ila_v6",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 1,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "3b505a030738513c98471d25f5b1f848",
+                        "pins": [
+                            {
+                                "name": "probe0",
+                                "id": 18,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 7,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "gmii_txd",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "gmii_txd[7]"
+                                            },
+                                            {
+                                                "name": "gmii_txd[6]"
+                                            },
+                                            {
+                                                "name": "gmii_txd[5]"
+                                            },
+                                            {
+                                                "name": "gmii_txd[4]"
+                                            },
+                                            {
+                                                "name": "gmii_txd[3]"
+                                            },
+                                            {
+                                                "name": "gmii_txd[2]"
+                                            },
+                                            {
+                                                "name": "gmii_txd[1]"
+                                            },
+                                            {
+                                                "name": "gmii_txd[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe1",
+                                "id": 19,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "gmii_tx_en",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe2",
+                                "id": 20,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "gmii_tx_er",
+                                        "isBus": false
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "parent_nets": [
+                    {
+                        "id": 7,
+                        "name": "UNetwork/UframeSniffer/network_fsm_RX[2]",
+                        "state_reg": [
+                            {
+                                "name": "UNetwork/UframeSniffer/FSM_onehot_network_fsm_RX_reg[1]",
+                                "states": [
+                                    {
+                                        "name": "HANDLE_RX",
+                                        "val": "00100"
+                                    },
+                                    {
+                                        "name": "COMPUTE_CRC_RX",
+                                        "val": "01000"
+                                    },
+                                    {
+                                        "name": "IDLE_RX",
+                                        "val": "00001"
+                                    },
+                                    {
+                                        "name": "WAIT_ACK_RX",
+                                        "val": "00010"
+                                    },
+                                    {
+                                        "name": "WAIT_RX",
+                                        "val": "10000"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
