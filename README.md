@@ -12,6 +12,9 @@ Message access rates target **600 Mbps**, as per [Stanco et al.](#), with the pa
 | Message Access Rate       | > 600 Mbps  |
 | Packet Transmission Rate  | 1 Gbps       |
 
+![圖片](https://github.com/user-attachments/assets/d43a12ab-8c2f-40aa-a3fd-e1ed0637728a)
+
+
 ---
 
 ## networkCentCtrl
